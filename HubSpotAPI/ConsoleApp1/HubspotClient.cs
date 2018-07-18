@@ -10,7 +10,7 @@ using WebAPIClientHubspot;
 namespace ConsoleApp1 {
 
     class HubspotClient {
-        const string UrlBase = "https://api.hubapi.com/contacts/v1/lists/all/contacts/all/?hapikey=8edee47b-095e-4b0c-8b6e-04b082781704&count=250&vidOffset=";
+        const string UrlBase = "https://api.hubapi.com/contacts/v1/lists/all/contacts/all/?hapikey=<API_KEY>&count=250&vidOffset=";
         private readonly HttpClient client = new HttpClient();
 
 
